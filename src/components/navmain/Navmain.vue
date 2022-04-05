@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
 	<div v-for="(itme , index) in list" :key="index">
 		<div class="itme">
 			<input type="checkbox" name="" id="" value="" v-model="itme.complete"/>
@@ -35,4 +35,3 @@
 		line-height: 35px;
 	}
 </style>
- -->

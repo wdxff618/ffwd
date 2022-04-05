@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<!-- <NavHeader></NavHeader>
+		<NavHeader></NavHeader>
 		<NavMain></NavMain>
-		<NavFooter></NavFooter> -->
+		<NavFooter></NavFooter>
 	</div>
 	<!-- <div>
 		{{ num }}
@@ -30,16 +30,16 @@
 </template>
 
 <script type="text/javascript">
-	// import NavHeader from '../components/navheader/Navheader.vue'
-	// import NavMain from '../components/navmain/Navmain.vue'
-	// import NavFooter from '../components/navfooter/Navfooter.vue'
+	import NavHeader from '../components/navheader/Navheader.vue'
+	import NavMain from '../components/navmain/Navmain.vue'
+	import NavFooter from '../components/navfooter/Navfooter.vue'
 	import {defineComponent , ref , reactive ,toRefs} from 'vue'
 	export default defineComponent({
 		name:'Home',
 		components:{
-			// NavHeader,
-			// NavMain,
-			// NavFooter
+			NavHeader,
+			NavMain,
+			NavFooter
 		},
 		setup (props, ctx){
 			let num = ref(10)

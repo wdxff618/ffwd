@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
 	<div>
 		<div>
 			已完成 {{ isComplete }} / 全部 {{ all }}
@@ -29,4 +29,3 @@
 <style scoped lang="scss">
 	
 </style>
- -->

@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
 	<div>
 		<input type="text" placeholder="请输入任务" v-model="value" @keydown.enter="enter"/>
 	</div>
@@ -25,4 +25,4 @@
 
 <style scoped lang="scss">
 	
-</style> -->
+</style>
